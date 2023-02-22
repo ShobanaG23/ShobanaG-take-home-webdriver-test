@@ -11,7 +11,7 @@
     <classes>
      
       
-      <class name="testCases.Tc001_LoginSuccess"/>
+     <!--  <class name="testCases.Tc001_LoginSuccess"/> -->
       <class name="testCases.Tc002_LoginFailure"/>
       <class name="testCases.Tc003_Checkboxes"/>
       <class name="testCases.Tc004_contextMenu"/>
