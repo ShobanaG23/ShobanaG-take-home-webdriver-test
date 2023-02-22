@@ -28,7 +28,7 @@ public class Tc016_JavaSriptErrorTest extends baseutils{
 		JavaScriptError jse = new JavaScriptError(driver);
 		String errorText = jse.JsError();
 		Assert.assertEquals(errorText, "Cannot read property 'xyz' of undefined.");
-		logger.info("error message did not match.");
+		logger.info("Error message did not match");
 		bu.captureSrceenshot(driver, "JavaSriptErrorTest");
 		
 	}
