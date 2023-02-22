@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FunctionalSuite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="testCases.Tc007_DynamicContentTest">
+        <methods>
+          <include name="DynamicContentTest1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Tc007_DynamicContentTest -->
+      <class name="testCases.Tc009_DynamicLoadTest">
+        <methods>
+          <include name="setup"/>
+          <include name="DynamicLoadTest"/>
+        </methods>
+      </class> <!-- testCases.Tc009_DynamicLoadTest -->
+      <class name="testCases.Tc015_JavaScriptAlertsTest">
+        <methods>
+          <include name="JavaScriptAlertsTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Tc015_JavaScriptAlertsTest -->
+      <class name="testCases.Tc004_contextMenu">
+        <methods>
+          <include name="setup"/>
+          <include name="contextMenu"/>
+        </methods>
+      </class> <!-- testCases.Tc004_contextMenu -->
+      <class name="testCases.Tc016_JavaSriptErrorTest">
+        <methods>
+          <include name="JavaSriptErrorTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Tc016_JavaSriptErrorTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FunctionalSuite] -->
