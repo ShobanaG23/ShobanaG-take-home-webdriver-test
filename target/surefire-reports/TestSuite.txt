@@ -1,47 +1,49 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 137.272 s <<< FAILURE! - in TestSuite
-testCases.Tc004_contextMenu.contextMenu  Time elapsed: 0.251 s  <<< FAILURE!
+Tests run: 17, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 163.389 s <<< FAILURE! - in TestSuite
+testCases.Tc004_contextMenu.contextMenu  Time elapsed: 0.443 s  <<< FAILURE!
 org.openqa.selenium.UnhandledAlertException: 
 unexpected alert open: {Alert text : You selected a context menu}
   (Session info: chrome=110.0.5481.104): You selected a context menu
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 479bc835e8bd4379830d6825a23edd25
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b52b2b182315dacd0e4693a60c8eb93
 	at testCases.Tc004_contextMenu.contextMenu(Tc004_contextMenu.java:33)
 
-testCases.Tc007_DynamicContentTest.DynamicContentTest1  Time elapsed: 3.421 s  <<< FAILURE!
+testCases.Tc007_DynamicContentTest.DynamicContentTest1  Time elapsed: 3.353 s  <<< FAILURE!
 java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
 	at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
 
-testCases.Tc009_DynamicLoadTest.DynamicLoadTest  Time elapsed: 30.57 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
+testCases.Tc009_DynamicLoadTest.DynamicLoadTest  Time elapsed: 41.578 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='finish']' (tried for 30 second(s) with 500 milliseconds interval)
+	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='finish']"}
   (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 200872df20e360ac149fa13d1b006ea0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aeb6fe122e1ef75d05e46a861dff4b70
 *** Element info: {Using=xpath, value=//div[@id='finish']}
 	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
 
-testCases.Tc015_JavaScriptAlertsTest.JavaScriptAlertsTest  Time elapsed: 0.011 s  <<< FAILURE!
+testCases.Tc015_JavaScriptAlertsTest.JavaScriptAlertsTest  Time elapsed: 0 s  <<< FAILURE!
 org.openqa.selenium.NoAlertPresentException: 
 no such alert
   (Session info: chrome=110.0.5481.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8429fc1c60fe7ed2f4d432eb7a61ef57
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c85b49566e4e5346fed86caa466bde7
 	at testCases.Tc015_JavaScriptAlertsTest.JavaScriptAlertsTest(Tc015_JavaScriptAlertsTest.java:29)
 
-testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest  Time elapsed: 0.27 s  <<< FAILURE!
+testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest  Time elapsed: 0.158 s  <<< FAILURE!
 java.lang.AssertionError: expected [Cannot read property 'xyz' of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
 	at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
 
