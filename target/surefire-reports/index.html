@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods, 5 failed,   12 passed</span>
+                    <span class="method-stats">17 methods, 4 failed,   13 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -108,11 +108,6 @@
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FunctionalSuite" title="testCases.Tc009_DynamicLoadTest" hash-for-method="DynamicLoadTest">DynamicLoadTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FunctionalSuite" title="testCases.Tc015_JavaScriptAlertsTest" hash-for-method="JavaScriptAlertsTest">JavaScriptAlertsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,6 +152,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FunctionalSuite" title="testCases.Tc012_FloatingMenuTest" hash-for-method="FloatingMenuTest">FloatingMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FunctionalSuite" title="testCases.Tc015_JavaScriptAlertsTest" hash-for-method="JavaScriptAlertsTest">JavaScriptAlertsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -209,17 +209,17 @@
           <div class="suite-FunctionalSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.Tc016_JavaSriptErrorTest</span>
+              <span class="class-name">testCases.Tc007_DynamicContentTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="JavaSriptErrorTest">
-                  </a> <!-- JavaSriptErrorTest -->
-                  <span class="method-name">JavaSriptErrorTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Cannot read property &apos;xyz&apos; of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
-	at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
-... Removed 35 stack frames
+                  <a name="DynamicContentTest1">
+                  </a> <!-- DynamicContentTest1 -->
+                  <span class="method-name">DynamicContentTest1</span>
+                  <div class="stack-trace">java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
+	at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -248,8 +248,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: aeb6fe122e1ef75d05e46a861dff4b70
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e20d9bb5b7d38c360dc069fd3744d2ae
 *** Element info: {Using=xpath, value=//div[@id=&apos;finish&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -279,60 +279,6 @@ Session ID: aeb6fe122e1ef75d05e46a861dff4b70
           <div class="suite-FunctionalSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.Tc015_JavaScriptAlertsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="JavaScriptAlertsTest">
-                  </a> <!-- JavaScriptAlertsTest -->
-                  <span class="method-name">JavaScriptAlertsTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=110.0.5481.104)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c85b49566e4e5346fed86caa466bde7
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at baseClass.baseutils.HandlingAlert(baseutils.java:171)
-	at pageObjects.JavaScriptAlertsPage.JsAlert(JavaScriptAlertsPage.java:34)
-	at testCases.Tc015_JavaScriptAlertsTest.JavaScriptAlertsTest(Tc015_JavaScriptAlertsTest.java:29)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-failed -->
-          <div class="suite-FunctionalSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.Tc007_DynamicContentTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DynamicContentTest1">
-                  </a> <!-- DynamicContentTest1 -->
-                  <span class="method-name">DynamicContentTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
-	at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-failed -->
-          <div class="suite-FunctionalSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">testCases.Tc004_contextMenu</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -346,8 +292,8 @@ Session ID: 0c85b49566e4e5346fed86caa466bde7
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b52b2b182315dacd0e4693a60c8eb93
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d56dabbdb11b9239a44b68bd0e7107e2
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -363,6 +309,130 @@ Session ID: 2b52b2b182315dacd0e4693a60c8eb93
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-FunctionalSuite-class-failed -->
+          <div class="suite-FunctionalSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Tc016_JavaSriptErrorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaSriptErrorTest">
+                  </a> <!-- JavaSriptErrorTest -->
+                  <span class="method-name">JavaSriptErrorTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Cannot read property &apos;xyz&apos; of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
+	at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-failed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc013_iframeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iframeTest">
+                  </a> <!-- iframeTest -->
+                  <span class="method-name">iframeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc015_JavaScriptAlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaScriptAlertsTest">
+                  </a> <!-- JavaScriptAlertsTest -->
+                  <span class="method-name">JavaScriptAlertsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc017_windowsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowsTest">
+                  </a> <!-- windowsTest -->
+                  <span class="method-name">windowsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc010_FileDownloaderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FileDownloaderTest">
+                  </a> <!-- FileDownloaderTest -->
+                  <span class="method-name">FileDownloaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc012_FloatingMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FloatingMenuTest">
+                  </a> <!-- FloatingMenuTest -->
+                  <span class="method-name">FloatingMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc002_LoginFailure</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginFailure">
+                  </a> <!-- LoginFailure -->
+                  <span class="method-name">LoginFailure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
+          <div class="suite-FunctionalSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Tc011_FileUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FileUploadTest">
+                  </a> <!-- FileUploadTest -->
+                  <span class="method-name">FileUploadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FunctionalSuite-class-passed -->
           <div class="suite-FunctionalSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -396,21 +466,6 @@ Session ID: 2b52b2b182315dacd0e4693a60c8eb93
           <div class="suite-FunctionalSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.Tc002_LoginFailure</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginFailure">
-                  </a> <!-- LoginFailure -->
-                  <span class="method-name">LoginFailure</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-passed -->
-          <div class="suite-FunctionalSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testCases.Tc018_NotificationMessageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -426,44 +481,14 @@ Session ID: 2b52b2b182315dacd0e4693a60c8eb93
           <div class="suite-FunctionalSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.Tc011_FileUploadTest</span>
+              <span class="class-name">testCases.Tc006_DropDownTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="FileUploadTest">
-                  </a> <!-- FileUploadTest -->
-                  <span class="method-name">FileUploadTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-passed -->
-          <div class="suite-FunctionalSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc017_windowsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="windowsTest">
-                  </a> <!-- windowsTest -->
-                  <span class="method-name">windowsTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-passed -->
-          <div class="suite-FunctionalSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc005_dragDropTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dragDropTest">
-                  </a> <!-- dragDropTest -->
-                  <span class="method-name">dragDropTest</span>
+                  <a name="DropDownTest">
+                  </a> <!-- DropDownTest -->
+                  <span class="method-name">DropDownTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -486,59 +511,14 @@ Session ID: 2b52b2b182315dacd0e4693a60c8eb93
           <div class="suite-FunctionalSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.Tc013_iframeTest</span>
+              <span class="class-name">testCases.Tc005_dragDropTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="iframeTest">
-                  </a> <!-- iframeTest -->
-                  <span class="method-name">iframeTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-passed -->
-          <div class="suite-FunctionalSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc012_FloatingMenuTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FloatingMenuTest">
-                  </a> <!-- FloatingMenuTest -->
-                  <span class="method-name">FloatingMenuTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-passed -->
-          <div class="suite-FunctionalSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc010_FileDownloaderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FileDownloaderTest">
-                  </a> <!-- FileDownloaderTest -->
-                  <span class="method-name">FileDownloaderTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FunctionalSuite-class-passed -->
-          <div class="suite-FunctionalSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Tc006_DropDownTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DropDownTest">
-                  </a> <!-- DropDownTest -->
-                  <span class="method-name">DropDownTest</span>
+                  <a name="dragDropTest">
+                  </a> <!-- dragDropTest -->
+                  <span class="method-name">dragDropTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -618,71 +598,71 @@ data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'DynamicLoadTest')
 data.setCell(0, 2, 'testCases.Tc009_DynamicLoadTest')
-data.setCell(0, 3, 41581);
+data.setCell(0, 3, 41669);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'DynamicControlRemoveAdd')
 data.setCell(1, 2, 'testCases.Tc008_DynamicControlTest')
-data.setCell(1, 3, 17490);
+data.setCell(1, 3, 17006);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'DropDownTest')
 data.setCell(2, 2, 'testCases.Tc006_DropDownTest')
-data.setCell(2, 3, 6108);
+data.setCell(2, 3, 5935);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'DynamicContentTest1')
-data.setCell(3, 2, 'testCases.Tc007_DynamicContentTest')
-data.setCell(3, 3, 3362);
+data.setCell(3, 1, 'JavaScriptAlertsTest')
+data.setCell(3, 2, 'testCases.Tc015_JavaScriptAlertsTest')
+data.setCell(3, 3, 5339);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'NotificationMessageTest')
-data.setCell(4, 2, 'testCases.Tc018_NotificationMessageTest')
-data.setCell(4, 3, 2671);
+data.setCell(4, 1, 'DynamicContentTest1')
+data.setCell(4, 2, 'testCases.Tc007_DynamicContentTest')
+data.setCell(4, 3, 3235);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'dragDropTest')
-data.setCell(5, 2, 'testCases.Tc005_dragDropTest')
-data.setCell(5, 3, 2174);
+data.setCell(5, 1, 'NotificationMessageTest')
+data.setCell(5, 2, 'testCases.Tc018_NotificationMessageTest')
+data.setCell(5, 3, 2217);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'FileUploadTest')
-data.setCell(6, 2, 'testCases.Tc011_FileUploadTest')
-data.setCell(6, 3, 2021);
+data.setCell(6, 1, 'MouseHoverTest')
+data.setCell(6, 2, 'testCases.Tc014_MouseHoverTest')
+data.setCell(6, 3, 1266);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'MouseHoverTest')
-data.setCell(7, 2, 'testCases.Tc014_MouseHoverTest')
-data.setCell(7, 3, 1391);
+data.setCell(7, 1, 'dragDropTest')
+data.setCell(7, 2, 'testCases.Tc005_dragDropTest')
+data.setCell(7, 3, 1080);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'LoginFailure')
 data.setCell(8, 2, 'testCases.Tc002_LoginFailure')
-data.setCell(8, 3, 1267);
+data.setCell(8, 3, 1044);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'FloatingMenuTest')
-data.setCell(9, 2, 'testCases.Tc012_FloatingMenuTest')
-data.setCell(9, 3, 1184);
+data.setCell(9, 1, 'FileUploadTest')
+data.setCell(9, 2, 'testCases.Tc011_FileUploadTest')
+data.setCell(9, 3, 958);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'iframeTest')
-data.setCell(10, 2, 'testCases.Tc013_iframeTest')
-data.setCell(10, 3, 955);
+data.setCell(10, 1, 'windowsTest')
+data.setCell(10, 2, 'testCases.Tc017_windowsTest')
+data.setCell(10, 3, 834);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'windowsTest')
-data.setCell(11, 2, 'testCases.Tc017_windowsTest')
-data.setCell(11, 3, 924);
+data.setCell(11, 1, 'FloatingMenuTest')
+data.setCell(11, 2, 'testCases.Tc012_FloatingMenuTest')
+data.setCell(11, 3, 718);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'checkbox')
-data.setCell(12, 2, 'testCases.Tc003_Checkboxes')
-data.setCell(12, 3, 695);
+data.setCell(12, 1, 'iframeTest')
+data.setCell(12, 2, 'testCases.Tc013_iframeTest')
+data.setCell(12, 3, 608);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'FileDownloaderTest')
-data.setCell(13, 2, 'testCases.Tc010_FileDownloaderTest')
-data.setCell(13, 3, 500);
+data.setCell(13, 1, 'checkbox')
+data.setCell(13, 2, 'testCases.Tc003_Checkboxes')
+data.setCell(13, 3, 526);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'contextMenu')
-data.setCell(14, 2, 'testCases.Tc004_contextMenu')
-data.setCell(14, 3, 429);
+data.setCell(14, 1, 'FileDownloaderTest')
+data.setCell(14, 2, 'testCases.Tc010_FileDownloaderTest')
+data.setCell(14, 3, 436);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'JavaSriptErrorTest')
-data.setCell(15, 2, 'testCases.Tc016_JavaSriptErrorTest')
-data.setCell(15, 3, 187);
+data.setCell(15, 1, 'contextMenu')
+data.setCell(15, 2, 'testCases.Tc004_contextMenu')
+data.setCell(15, 3, 221);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'JavaScriptAlertsTest')
-data.setCell(16, 2, 'testCases.Tc015_JavaScriptAlertsTest')
-data.setCell(16, 3, 33);
+data.setCell(16, 1, 'JavaSriptErrorTest')
+data.setCell(16, 2, 'testCases.Tc016_JavaSriptErrorTest')
+data.setCell(16, 3, 150);
 window.suiteTableData['FunctionalSuite']= { tableData: data, tableDiv: 'times-div-FunctionalSuite'}
 return data;
 }
@@ -720,193 +700,191 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">LoginFailure</span>
-                <span class="method-start">5234 ms</span>
+                <span class="method-start">2745 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc003_Checkboxes</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6523 ms</span>
+                <span class="method-start">3807 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkbox</span>
-                <span class="method-start">10024 ms</span>
+                <span class="method-start">6012 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc004_contextMenu</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10720 ms</span>
+                <span class="method-start">6539 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">contextMenu</span>
-                <span class="method-start">13876 ms</span>
+                <span class="method-start">8595 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc005_dragDropTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">14327 ms</span>
+                <span class="method-start">8828 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">dragDropTest</span>
-                <span class="method-start">17252 ms</span>
+                <span class="method-start">11541 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc006_DropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">19426 ms</span>
+                <span class="method-start">12621 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">DropDownTest</span>
-                <span class="method-start">22939 ms</span>
+                <span class="method-start">15080 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc007_DynamicContentTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">29047 ms</span>
+                <span class="method-start">21022 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">DynamicContentTest1</span>
-                <span class="method-start">43579 ms</span>
+                <span class="method-start">24960 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc008_DynamicControlTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">46944 ms</span>
+                <span class="method-start">28197 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">DynamicControlRemoveAdd</span>
-                <span class="method-start">49903 ms</span>
+                <span class="method-start">33291 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc009_DynamicLoadTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">67393 ms</span>
+                <span class="method-start">50298 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">DynamicLoadTest</span>
-                <span class="method-start">71537 ms</span>
+                <span class="method-start">53026 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc010_FileDownloaderTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">113118 ms</span>
+                <span class="method-start">94695 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">FileDownloaderTest</span>
-                <span class="method-start">115869 ms</span>
+                <span class="method-start">96884 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc011_FileUploadTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">116371 ms</span>
+                <span class="method-start">97323 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">FileUploadTest</span>
-                <span class="method-start">120343 ms</span>
+                <span class="method-start">101559 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc012_FloatingMenuTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">122366 ms</span>
+                <span class="method-start">102519 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">FloatingMenuTest</span>
-                <span class="method-start">125462 ms</span>
+                <span class="method-start">104793 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc013_iframeTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">126646 ms</span>
+                <span class="method-start">105513 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">iframeTest</span>
-                <span class="method-start">131014 ms</span>
+                <span class="method-start">108990 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc014_MouseHoverTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">131969 ms</span>
+                <span class="method-start">109598 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">MouseHoverTest</span>
-                <span class="method-start">137302 ms</span>
+                <span class="method-start">112429 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc015_JavaScriptAlertsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">138696 ms</span>
+                <span class="method-start">113695 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">JavaScriptAlertsTest</span>
-                <span class="method-start">144744 ms</span>
+                <span class="method-start">116782 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc016_JavaSriptErrorTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">144800 ms</span>
+                <span class="method-start">122121 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">JavaSriptErrorTest</span>
-                <span class="method-start">148702 ms</span>
+                <span class="method-start">126513 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc017_windowsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">148889 ms</span>
+                <span class="method-start">126663 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">windowsTest</span>
-                <span class="method-start">152235 ms</span>
+                <span class="method-start">131277 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Tc018_NotificationMessageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">153159 ms</span>
+                <span class="method-start">132111 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">NotificationMessageTest</span>
-                <span class="method-start">156757 ms</span>
+                <span class="method-start">134974 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

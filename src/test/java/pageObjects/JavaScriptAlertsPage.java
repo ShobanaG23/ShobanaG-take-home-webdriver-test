@@ -31,20 +31,23 @@ public class JavaScriptAlertsPage extends baseutils{
 	
 	//methods to handle alert
 	public String JsAlert() {
-		String textInAlert = bu.HandlingAlert(driver, btnjsAlert, "Click for JS Alert button");
+		bu.clickOnElement(btnjsAlert, "JS Alert button");
+		String textInAlert = bu.HandlingAlert(driver, btnjsAlert, "JS Alert");
 		bu.AcceptAlert(driver);
 		return textInAlert;
 	
 	}
 	
 	public String JsConfirm() {
-		String TextinConfirm = bu.HandlingAlert(driver, btnjsConfirm, "Click for JS confirm button");
+		bu.clickOnElement(btnjsConfirm, "JS confirm button");
+		String TextinConfirm = bu.HandlingAlert(driver, btnjsConfirm, "JS confirm button");
 		bu.AcceptAlert(driver);
 		return TextinConfirm;
 	}
 	
 	public String JsPromt() {
-		String AlertMessage = bu.HandlingAlert(driver, btnjsPrompt, "Click for JS Prompt button");
+		bu.clickOnElement(btnjsPrompt, "JS Prompt button");
+		String AlertMessage = bu.HandlingAlert(driver, btnjsPrompt, "JS Prompt button");
 		String TextTyped = bu.EnterInalert(driver, "HI! This is the text in alert");
 		bu.AcceptAlert(driver);
 		return TextTyped;

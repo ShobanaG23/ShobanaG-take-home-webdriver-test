@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3922" started-at="2023-02-22T22:09:09Z" finished-at="2023-02-22T22:09:13Z">
+  <suite name="Default suite" duration-ms="7383" started-at="2023-02-23T14:53:54Z" finished-at="2023-02-23T14:54:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3922" started-at="2023-02-22T22:09:09Z" finished-at="2023-02-22T22:09:13Z">
-      <class name="testCases.Tc001_LoginSuccess">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc001_LoginSuccess@132c79a]" name="setup" is-config="true" duration-ms="2691" started-at="2023-02-22T22:09:09Z" finished-at="2023-02-22T22:09:12Z">
+    <test name="Default test" duration-ms="7383" started-at="2023-02-23T14:53:54Z" finished-at="2023-02-23T14:54:02Z">
+      <class name="testCases.Tc015_JavaScriptAlertsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.Tc015_JavaScriptAlertsTest@182859e]" name="setup" is-config="true" duration-ms="2707" started-at="2023-02-23T14:53:54Z" finished-at="2023-02-23T14:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginSuccess()[pri:0, instance:testCases.Tc001_LoginSuccess@132c79a]" name="LoginSuccess" duration-ms="1199" started-at="2023-02-22T22:09:12Z" finished-at="2023-02-22T22:09:13Z">
+        <test-method status="PASS" signature="JavaScriptAlertsTest()[pri:0, instance:testCases.Tc015_JavaScriptAlertsTest@182859e]" name="JavaScriptAlertsTest" duration-ms="4653" started-at="2023-02-23T14:53:57Z" finished-at="2023-02-23T14:54:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginSuccess -->
-      </class> <!-- testCases.Tc001_LoginSuccess -->
+        </test-method> <!-- JavaScriptAlertsTest -->
+      </class> <!-- testCases.Tc015_JavaScriptAlertsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

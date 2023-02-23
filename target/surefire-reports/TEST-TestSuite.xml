@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="163.389" tests="17" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="140.165" tests="17" errors="0" skipped="0" failures="4">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -20,7 +20,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_341\bin"/>
-    <property name="sun.java.command" value="C:\Users\rarav\AppData\Local\Temp\surefire6186022331441588606\surefirebooter951783552848818398.jar C:\Users\rarav\AppData\Local\Temp\surefire6186022331441588606 2023-02-22T18-09-44_119-jvmRun1 surefire3928340552240729324tmp surefire_0714292638498727117tmp"/>
+    <property name="sun.java.command" value="C:\Users\rarav\AppData\Local\Temp\surefire925746708430529184\surefirebooter4569433868513009757.jar C:\Users\rarav\AppData\Local\Temp\surefire925746708430529184 2023-02-23T09-55-36_818-jvmRun1 surefire1097556961693709891tmp surefire_03429358349976912794tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\rarav\eclipse-workspace\Dotdashcom_AssessmentShobana\target\test-classes;C:\Users\rarav\eclipse-workspace\Dotdashcom_AssessmentShobana\target\classes;C:\Users\rarav\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.0\webdrivermanager-4.4.0.jar;C:\Users\rarav\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\rarav\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\rarav\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\rarav\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\rarav\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\rarav\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\rarav\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\rarav\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\rarav\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\rarav\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\rarav\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rarav\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rarav\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rarav\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rarav\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rarav\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rarav\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rarav\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rarav\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rarav\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rarav\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rarav\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rarav\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\rarav\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\rarav\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\rarav\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;C:\Users\rarav\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;C:\Users\rarav\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\rarav\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\rarav\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\rarav\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\rarav\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\rarav\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\rarav\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\rarav\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rarav\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\rarav"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\rarav\AppData\Local\Temp\surefire6186022331441588606\surefirebooter951783552848818398.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rarav\AppData\Local\Temp\surefire925746708430529184\surefirebooter4569433868513009757.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre1.8.0_341\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_341\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_341\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_341\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_341\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_341\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_341\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="LoginFailure" classname="testCases.Tc002_LoginFailure" time="1.259">
+  <testcase name="LoginFailure" classname="testCases.Tc002_LoginFailure" time="1.028">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
 Text entered in Username is : shobana
 Text entered in Password is : TEST123
@@ -70,149 +70,149 @@ Clicked on Submit
 Text dislayed in the Login Failure message is : Your username is invalid!
 ×
 Message retrived is : Your username is invalid!
-[INFO ] 22-02-2023 06:09:54.609 Tc002_LoginFailure - Assertion Pass: Failure message matches
-[INFO ] 22-02-2023 06:09:54.915 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:55:43.364 Tc002_LoginFailure - Assertion Pass: Failure message matches
+[INFO ] 23-02-2023 09:55:43.578 baseutils - Screenshot captured successfully
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 52691
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 23870
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107391.595][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:09:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164141.629][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:55:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="checkbox" classname="testCases.Tc003_Checkboxes" time="0.674">
+  <testcase name="checkbox" classname="testCases.Tc003_Checkboxes" time="0.513">
     <system-out><![CDATA[checkbox 1 is not selected before clicking
 checkbox 1 is selected after clicking
-[INFO ] 22-02-2023 06:09:58.733 Tc003_Checkboxes - Assertion pass
+[INFO ] 23-02-2023 09:55:45.980 Tc003_Checkboxes - Assertion pass
 checkbox 2 is already selected before clicking
 checkbox 2 is not selected after clicking
-[INFO ] 22-02-2023 06:09:58.897 Tc003_Checkboxes - Assertion pass
-[INFO ] 22-02-2023 06:09:59.133 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:55:46.119 Tc003_Checkboxes - Assertion pass
+[INFO ] 23-02-2023 09:55:46.326 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 60108
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 47239
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107396.708][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:09:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164144.829][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:55:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="contextMenu" classname="testCases.Tc004_contextMenu" time="0.443">
-    <failure message="unexpected alert open: {Alert text : You selected a context menu}&#10;  (Session info: chrome=110.0.5481.104): You selected a context menu&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b52b2b182315dacd0e4693a60c8eb93" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
+  <testcase name="contextMenu" classname="testCases.Tc004_contextMenu" time="0.236">
+    <failure message="unexpected alert open: {Alert text : You selected a context menu}&#10;  (Session info: chrome=110.0.5481.104): You selected a context menu&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d56dabbdb11b9239a44b68bd0e7107e2" type="org.openqa.selenium.UnhandledAlertException"><![CDATA[org.openqa.selenium.UnhandledAlertException: 
 unexpected alert open: {Alert text : You selected a context menu}
   (Session info: chrome=110.0.5481.104): You selected a context menu
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b52b2b182315dacd0e4693a60c8eb93
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d56dabbdb11b9239a44b68bd0e7107e2
 	at testCases.Tc004_contextMenu.contextMenu(Tc004_contextMenu.java:33)
 ]]></failure>
     <system-out><![CDATA[Right clicked on the : Box
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 30927
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 23811
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107400.915][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:10:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164147.617][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:55:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="dragDropTest" classname="testCases.Tc005_dragDropTest" time="2.156">
+  <testcase name="dragDropTest" classname="testCases.Tc005_dragDropTest" time="1.073">
     <system-out><![CDATA[--Box names before drag and drop--
 for A : A and for B : B
 --Box names afer drag and drop are--
 for A : A and for B : B
-[INFO ] 22-02-2023 06:10:07.840 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:55:52.410 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 47230
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 38512
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107404.309][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:10:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164150.459][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:55:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="DropDownTest" classname="testCases.Tc006_DropDownTest" time="6.112">
+  <testcase name="DropDownTest" classname="testCases.Tc006_DropDownTest" time="5.936">
     <system-out><![CDATA[Please select an option : Option 1 / Option 2
 Selected option is : Option 1
-[INFO ] 22-02-2023 06:10:11.699 Tc006_DropDownTest - Selected option is asserted
+[INFO ] 23-02-2023 09:55:55.288 Tc006_DropDownTest - Selected option is asserted
 Please select an option : Option 1 / Option 2
 Selected option is : Option 2
-[INFO ] 22-02-2023 06:10:17.122 Tc006_DropDownTest - Selected option is asserted
-[INFO ] 22-02-2023 06:10:17.461 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:56:00.558 Tc006_DropDownTest - Selected option is asserted
+[INFO ] 23-02-2023 09:56:00.804 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 60563
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 22059
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107409.638][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:10:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164154.003][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:55:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="DynamicContentTest1" classname="testCases.Tc007_DynamicContentTest" time="3.353">
+  <testcase name="DynamicContentTest1" classname="testCases.Tc007_DynamicContentTest" time="3.23">
     <failure message="Content matches before and after refresh expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Content matches before and after refresh expected [false] but found [true]
 	at testCases.Tc007_DynamicContentTest.DynamicContentTest1(Tc007_DynamicContentTest.java:41)
 ]]></failure>
     <system-out><![CDATA[-----------content 1--------------
-Text dislayed in the Content1 is : Molestiae dicta voluptas ea sed dolor illum nihil consequatur qui culpa doloremque ex ut eos expedita sed atque at enim error non voluptas cum et sint adipisci quia non dolorem et nulla.
+Text dislayed in the Content1 is : Quam sunt repellendus illum dolores sit nesciunt accusantium consequatur consequuntur eaque commodi soluta distinctio sed quos alias amet numquam expedita iste consectetur pariatur velit perspiciatis ipsa eos voluptas deleniti harum dolor voluptates.
 Clicked on refresh
 Text dislayed in the Content1 is : Omnis fugiat porro vero quas tempora quis eveniet ab officia cupiditate culpa repellat debitis itaque possimus odit dolorum et iste quibusdam quis dicta autem sint vel quo vel consequuntur dolorem nihil neque sunt aperiam blanditiis.
-[INFO ] 22-02-2023 06:10:32.667 Tc007_DynamicContentTest - Content didnot match beofre and after refresh
-[INFO ] 22-02-2023 06:10:33.016 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:56:05.359 Tc007_DynamicContentTest - Content didnot match beofre and after refresh
+[INFO ] 23-02-2023 09:56:05.643 baseutils - Screenshot captured successfully
 -----------content 2--------------
 Text dislayed in the Content2 is : Omnis fugiat porro vero quas tempora quis eveniet ab officia cupiditate culpa repellat debitis itaque possimus odit dolorum et iste quibusdam quis dicta autem sint vel quo vel consequuntur dolorem nihil neque sunt aperiam blanditiis.
 Clicked on refresh
 Text dislayed in the Content2 is : Omnis fugiat porro vero quas tempora quis eveniet ab officia cupiditate culpa repellat debitis itaque possimus odit dolorum et iste quibusdam quis dicta autem sint vel quo vel consequuntur dolorem nihil neque sunt aperiam blanditiis.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 7140
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 41187
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107420.697][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:10:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164162.857][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:56:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="DynamicControlRemoveAdd" classname="testCases.Tc008_DynamicControlTest" time="17.49">
+  <testcase name="DynamicControlRemoveAdd" classname="testCases.Tc008_DynamicControlTest" time="16.994">
     <system-out><![CDATA[checkbox is displayed
 Clicked on Remove button
 Text dislayed in the Remove/Add button is : It's gone!
-[INFO ] 22-02-2023 06:10:41.718 Tc008_DynamicControlTest - Message displayed : It's gone!
+[INFO ] 23-02-2023 09:56:16.765 Tc008_DynamicControlTest - Message displayed : It's gone!
 Clicked on Add button
 checkbox is displayed
 Text dislayed in the Remove/Add button is : It's back!
-[INFO ] 22-02-2023 06:10:45.067 Tc008_DynamicControlTest - Message displayed : It's back!
-[INFO ] 22-02-2023 06:10:45.351 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:56:20.059 Tc008_DynamicControlTest - Message displayed : It's back!
+[INFO ] 23-02-2023 09:56:20.314 baseutils - Screenshot captured successfully
 Clicked on Enable button
 Enable button is enabled
 Text dislayed in the Remove/Add button is : It's enabled!
-[INFO ] 22-02-2023 06:10:51.861 Tc008_DynamicControlTest - Message displayed : It's enabled!
+[INFO ] 23-02-2023 09:56:26.628 Tc008_DynamicControlTest - Message displayed : It's enabled!
 Clicked on Disable button
 Disable button is disabled
 Text dislayed in the Remove/Add button is : It's disabled!
-[INFO ] 22-02-2023 06:10:55.360 Tc008_DynamicControlTest - Message displayed : It's disabled!
-[INFO ] 22-02-2023 06:10:55.807 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:56:29.854 Tc008_DynamicControlTest - Message displayed : It's disabled!
+[INFO ] 23-02-2023 09:56:30.086 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 14118
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 61562
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107436.966][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:10:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164170.096][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:56:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="DynamicLoadTest" classname="testCases.Tc009_DynamicLoadTest" time="41.578">
+  <testcase name="DynamicLoadTest" classname="testCases.Tc009_DynamicLoadTest" time="41.662">
     <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@id=&apos;finish&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='finish']' (tried for 30 second(s) with 500 milliseconds interval)
 	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: 
@@ -222,168 +222,170 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57721}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: aeb6fe122e1ef75d05e46a861dff4b70
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e20d9bb5b7d38c360dc069fd3744d2ae
 *** Element info: {Using=xpath, value=//div[@id='finish']}
 	at testCases.Tc009_DynamicLoadTest.DynamicLoadTest(Tc009_DynamicLoadTest.java:30)
 ]]></failure>
     <system-out><![CDATA[Clicked on start button
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 6526
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 35486
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107457.884][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:10:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164191.537][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:56:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="FileDownloaderTest" classname="testCases.Tc010_FileDownloaderTest" time="0.486">
+  <testcase name="FileDownloaderTest" classname="testCases.Tc010_FileDownloaderTest" time="0.434">
     <system-out><![CDATA[Clicked on File
 Text dislayed in the file is : some-file.txt
-[INFO ] 22-02-2023 06:11:44.783 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:17.109 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 17096
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 54289
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107502.884][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:11:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164235.995][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="FileUploadTest" classname="testCases.Tc011_FileUploadTest" time="1.989">
+  <testcase name="FileUploadTest" classname="testCases.Tc011_FileUploadTest" time="0.944">
     <system-out><![CDATA[File is uploaded into the page
 Clicked on Upload button
 Text dislayed in the File name is : some-file.txt
-[INFO ] 22-02-2023 06:11:50.549 Tc011_FileUploadTest - file name matches
-[INFO ] 22-02-2023 06:11:50.778 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:22.014 Tc011_FileUploadTest - file name matches
+[INFO ] 23-02-2023 09:57:22.306 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 8837
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 27983
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107507.092][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:11:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164238.700][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="FloatingMenuTest" classname="testCases.Tc012_FloatingMenuTest" time="1.123">
+  <testcase name="FloatingMenuTest" classname="testCases.Tc012_FloatingMenuTest" time="0.709">
     <system-out><![CDATA[Home menu is displayed
-[INFO ] 22-02-2023 06:11:54.632 Tc012_FloatingMenuTest - Assertion Pass
-[INFO ] 22-02-2023 06:11:55.060 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:24.961 Tc012_FloatingMenuTest - Assertion Pass
+[INFO ] 23-02-2023 09:57:25.300 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 28129
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 5436
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107512.786][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:11:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164243.753][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="iframeTest" classname="testCases.Tc013_iframeTest" time="0.943">
+  <testcase name="iframeTest" classname="testCases.Tc013_iframeTest" time="0.599">
     <system-out><![CDATA[Text entered in Your Content goes here field is : hi! entered into iframe.
 Text dislayed in the Your Content goes here field is : hi! entered into iframe.
-[INFO ] 22-02-2023 06:12:00.088 Tc013_iframeTest - Text entered matches.
-[INFO ] 22-02-2023 06:12:00.383 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:29.188 Tc013_iframeTest - Text entered matches.
+[INFO ] 23-02-2023 09:57:29.387 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 27470
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 5434
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107516.975][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:11:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164246.833][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="MouseHoverTest" classname="testCases.Tc014_MouseHoverTest" time="1.347">
+  <testcase name="MouseHoverTest" classname="testCases.Tc014_MouseHoverTest" time="1.259">
     <system-out><![CDATA[------First Image-----------
 Text dislayed in the Image 1 Caption is : name: user1
 View profile
 Image 1 Caption is displayed
-[INFO ] 22-02-2023 06:12:06.132 Tc014_MouseHoverTest - Assertion Pass
+[INFO ] 23-02-2023 09:57:32.569 Tc014_MouseHoverTest - Assertion Pass
 ------Second Image-----------
 Text dislayed in the Image 2 Caption is : name: user2
 View profile
 Image 2 Caption is displayed
-[INFO ] 22-02-2023 06:12:06.521 Tc014_MouseHoverTest - Assertion Pass
+[INFO ] 23-02-2023 09:57:32.879 Tc014_MouseHoverTest - Assertion Pass
 ------Third Image-----------
 Text dislayed in the Image 3 Caption is : name: user3
 View profile
 Image 3 Caption is displayed
-[INFO ] 22-02-2023 06:12:06.842 Tc014_MouseHoverTest - Assertion Pass
-[INFO ] 22-02-2023 06:12:07.107 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:33.238 Tc014_MouseHoverTest - Assertion Pass
+[INFO ] 23-02-2023 09:57:33.484 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 58081
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 43569
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107522.583][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:12:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164251.020][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="JavaScriptAlertsTest" classname="testCases.Tc015_JavaScriptAlertsTest" time="0">
-    <failure message="no such alert&#10;  (Session info: chrome=110.0.5481.104)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-Q3OL5F5&apos;, ip: &apos;192.168.2.19&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0c85b49566e4e5346fed86caa466bde7" type="org.openqa.selenium.NoAlertPresentException"><![CDATA[org.openqa.selenium.NoAlertPresentException: 
-no such alert
-  (Session info: chrome=110.0.5481.104)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-Q3OL5F5', ip: '192.168.2.19', os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_341'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\rarav\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0c85b49566e4e5346fed86caa466bde7
-	at testCases.Tc015_JavaScriptAlertsTest.JavaScriptAlertsTest(Tc015_JavaScriptAlertsTest.java:29)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 12989
+  <testcase name="JavaScriptAlertsTest" classname="testCases.Tc015_JavaScriptAlertsTest" time="5.328">
+    <system-out><![CDATA[Clicked on JS Alert button
+Alert message displayed is : I am a JS Alert
+[INFO ] 23-02-2023 09:57:36.749 Tc015_JavaScriptAlertsTest - Js_Alert message matches.
+Clicked on JS confirm button
+Alert message displayed is : I am a JS Confirm
+[INFO ] 23-02-2023 09:57:38.912 Tc015_JavaScriptAlertsTest - Js_Confirm message matches.
+Clicked on JS Prompt button
+Alert message displayed is : I am a JS prompt
+text entered in Alert is :HI! This is the text in alert
+[INFO ] 23-02-2023 09:57:41.513 Tc015_JavaScriptAlertsTest - Js_Prompt text entered in alert matches.
+[INFO ] 23-02-2023 09:57:41.910 baseutils - Screenshot captured successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 46852
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107529.014][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:12:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164255.225][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="JavaSriptErrorTest" classname="testCases.Tc016_JavaSriptErrorTest" time="0.158">
+  <testcase name="JavaSriptErrorTest" classname="testCases.Tc016_JavaSriptErrorTest" time="0.108">
     <failure message="expected [Cannot read property &apos;xyz&apos; of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Cannot read property 'xyz' of undefined.] but found [This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.]
 	at testCases.Tc016_JavaSriptErrorTest.JavaSriptErrorTest(Tc016_JavaSriptErrorTest.java:30)
 ]]></failure>
     <system-out><![CDATA[Text dislayed in the Js Error message is : This page has a JavaScript error in the onload event. This is often a problem to using normal Javascript injection techniques.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 17076
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 12527
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107535.108][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:12:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164264.812][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="windowsTest" classname="testCases.Tc017_windowsTest" time="0.897">
+  <testcase name="windowsTest" classname="testCases.Tc017_windowsTest" time="0.815">
     <system-out><![CDATA[Clicked on Click here link
 Text dislayed in the New Window is : New Window
-[INFO ] 22-02-2023 06:12:21.166 Tc017_windowsTest - text matches
-[INFO ] 22-02-2023 06:12:21.573 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:51.651 Tc017_windowsTest - text matches
+[INFO ] 23-02-2023 09:57:51.900 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 42337
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 25460
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107539.350][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:12:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164269.438][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="NotificationMessageTest" classname="testCases.Tc018_NotificationMessageTest" time="2.643">
+  <testcase name="NotificationMessageTest" classname="testCases.Tc018_NotificationMessageTest" time="2.209">
     <system-out><![CDATA[Clicked on Click here link
 Text dislayed in the Flash message is : Action unsuccesful, please try again
 ×
 flash message dispplayed is : Action unsuccesful, please try again
 ×
 Clicked on Click here link
-Text dislayed in the Flash message is : Action unsuccesful, please try again
+Text dislayed in the Flash message is : Action successful
 ×
-flash message dispplayed is : Action unsuccesful, please try again
+flash message dispplayed is : Action successful
 ×
 Clicked on Click here link
 Text dislayed in the Flash message is : Action successful
@@ -391,23 +393,23 @@ Text dislayed in the Flash message is : Action successful
 flash message dispplayed is : Action successful
 ×
 Clicked on Click here link
-Text dislayed in the Flash message is : Action unsuccesful, please try again
+Text dislayed in the Flash message is : Action successful
 ×
-flash message dispplayed is : Action unsuccesful, please try again
+flash message dispplayed is : Action successful
 ×
 Clicked on Click here link
 Text dislayed in the Flash message is : Action successful
 ×
 flash message dispplayed is : Action successful
 ×
-[INFO ] 22-02-2023 06:12:27.842 baseutils - Screenshot captured successfully
+[INFO ] 23-02-2023 09:57:56.980 baseutils - Screenshot captured successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 59257
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 27670
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1677107543.673][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-Feb 22, 2023 6:12:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1677164273.771][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 23, 2023 9:57:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
